@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_WANGSHENG_FUNERAL_PARLOR" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_WANMIN_RESTAURANT" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_LAWHOUSE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_HEYU_TEAHOUSE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_WANWEN_BOOKHOUSE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_BUBU_PHARMACY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_XINYAN_ROCK_BAND" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" LeaderType="LEADER_KEQING" CapitalName="LOC_CITY_NAME_LIYUE_CL_1" />
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" LeaderType="LEADER_NINGGUANG" CapitalName="LOC_CITY_NAME_LIYUE_CL_1" />
+	</CivilizationLeaders>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_BUILDING_WANGSHENG_FUNERAL_PARLOR"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_BUILDING_WANMIN_RESTAURANT"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_BUILDING_HEYU_TEAHOUSE"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_BUILDING_WANWEN_BOOKHOUSE"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_BUILDING_BUBU_PHARMACY"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_UNIT_XINYAN_ROCK_BAND"/>
+	</CivilizationTraits>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_WANGSHENG_FUNERAL_PARLOR" Name="LOC_BUILDING_WANGSHENG_FUNERAL_PARLOR_NAME" Description="LOC_BUILDING_WANGSHENG_FUNERAL_PARLOR_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_WANMIN_RESTAURANT" Name="LOC_BUILDING_WANMIN_RESTAURANT_NAME" Description="LOC_BUILDING_WANMIN_RESTAURANT_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_LAWHOUSE" Name="LOC_BUILDING_LAWHOUSE_NAME" Description="LOC_BUILDING_LAWHOUSE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_HEYU_TEAHOUSE" Name="LOC_BUILDING_HEYU_TEAHOUSE_NAME" Description="LOC_BUILDING_HEYU_TEAHOUSE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_WANWEN_BOOKHOUSE" Name="LOC_BUILDING_WANWEN_BOOKHOUSE_NAME" Description="LOC_BUILDING_WANWEN_BOOKHOUSE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_BUBU_PHARMACY" Name="LOC_BUILDING_BUBU_PHARMACY_NAME" Description="LOC_BUILDING_BUBU_PHARMACY_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_XINYAN_ROCK_BAND" Name="LOC_UNIT_XINYAN_ROCK_BAND_NAME" Description="LOC_UNIT_XINYAN_ROCK_BAND_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS" ModifierId="MODIFIER_BROKEN_PLEDGE"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS" ModifierId="MODIFIER_TRADE_ROUTE_YIELD_GOLD"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS" ModifierId="MODIFIER_DUPLICATE_TRADE_ROUTE"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS" ModifierId="MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS"/>
+		<Row TraitType="TRAIT_CIVILIZATION_HARBOR_OF_STONE_AND_CONTRACTS" ModifierId="MODIFIER_HARBOR_ADJACENCY_BONUS"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>MODIFIER_BROKEN_PLEDGE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_DIPLOMACY_BROKEN_PLEDGE</ModifierType>
+			<OwnerRequirementSetId>ON_TURN_STARTED</OwnerRequirementSetId>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_DISTRICT_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_HARBOR_ADJACENCY_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_DISTRICT_ADJACENCY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_TRADE_ROUTE_YIELD_GOLD</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_YIELD_FROM_OTHERS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_DUPLICATE_TRADE_ROUTE</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_TRADE_ROUTE_CAPACITY</ModifierType>
+			<SubjectRequirementSetId>CITY_HAS_MARKET_LIGHTHOUSE</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>MODIFIER_BROKEN_PLEDGE</ModifierId>
+			<Name>IncrementValue</Name>
+			<Value>0</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BROKEN_PLEDGE</ModifierId>
+			<Name>ModifierPerTransgression</Name>
+			<Value>-12</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BROKEN_PLEDGE</ModifierId>
+			<Name>ReductionTurns</Name>
+			<Value>15</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BROKEN_PLEDGE</ModifierId>
+			<Name>ReductionValue</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_BROKEN_PLEDGE</ModifierId>
+			<Name>SimpleModifierDescription</Name>
+			<Value>LOC_DIPLO_MODIFIER_BROKEN_PLEDGE</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_COMMERCIAL_HUB</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_COMMERCIAL_HUB_ADJACENCY_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_HARBOR_ADJACENCY_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_HARBOR_ADJACENCY_BONUS</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_MODIFIER_HARBOR_ADJACENCY_BONUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_HARBOR_ADJACENCY_BONUS</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_HARBOR</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_HARBOR_ADJACENCY_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_TRADE_ROUTE_YIELD_GOLD</ModifierId>
+			<Name>Amount</Name>
+			<Value>5</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_TRADE_ROUTE_YIELD_GOLD</ModifierId>
+			<Name>Domestic</Name>
+			<Value>false</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_TRADE_ROUTE_YIELD_GOLD</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>MODIFIER_DUPLICATE_TRADE_ROUTE</ModifierId>
+			<Name>Amount</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>CITY_HAS_MARKET_LIGHTHOUSE</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>CITY_HAS_MARKET_LIGHTHOUSE</RequirementSetId>
+			<RequirementId>CITY_HAS_MARKET</RequirementId>
+		</Row>
+		<Row>
+			<RequirementSetId>CITY_HAS_MARKET_LIGHTHOUSE</RequirementSetId>
+			<RequirementId>CITY_HAS_LIGHTHOUSE</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+		<Row>
+			<RequirementId>CITY_HAS_MARKET</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+		<Row>
+			<RequirementId>CITY_HAS_LIGHTHOUSE</RequirementId>
+			<RequirementType>REQUIREMENT_CITY_HAS_BUILDING</RequirementType>
+		</Row>
+	</Requirements>
+	<RequirementArguments>
+		<Row>
+			<RequirementId>CITY_HAS_MARKET</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_MARKET</Value>
+		</Row>
+		<Row>
+			<RequirementId>CITY_HAS_LIGHTHOUSE</RequirementId>
+			<Name>BuildingType</Name>
+			<Value>BUILDING_LIGHTHOUSE</Value>
+		</Row>
+	</RequirementArguments>
+	<ModifierStrings>
+	</ModifierStrings>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_WANGSHENG_FUNERAL_PARLOR" Texture="MOMENT_BUILDING_WANGSHENG_FUNERAL_PARLOR"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_WANMIN_RESTAURANT" Texture="MOMENT_BUILDING_WANMIN_RESTAURANT"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_LAWHOUSE" Texture="MOMENT_BUILDING_LAWHOUSE"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_HEYU_TEAHOUSE" Texture="MOMENT_BUILDING_HEYU_TEAHOUSE"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_WANWEN_BOOKHOUSE" Texture="MOMENT_BUILDING_WANWEN_BOOKHOUSE"/>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_MILLELITH" Texture="MOMENT_UNIT_MILLELITH"/>
+	</MomentIllustrations>
+</GameData>
