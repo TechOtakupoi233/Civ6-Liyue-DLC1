@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+    <Types>
+        <Row Type="UNIT_JADE_CHAMBER" Kind="KIND_UNIT"/>
+    </Types>
+	<TypeTags>
+		<Row Type="UNIT_JADE_CHAMBER" Tag="CLASS_RANGED"/>
+	</TypeTags>
+    <Units>
+		<Row UnitType="UNIT_JADE_CHAMBER" Cost="0" Maintenance="4" BaseMoves="4" BaseSightRange="5" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="45" RangedCombat="60" Range="3" FormationClass="FORMATION_CLASS_LAND_COMBAT" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_JADE_CHAMBER_NAME" Description="LOC_UNIT_JADE_CHAMBER_DESCRIPTION" PurchaseYield="YIELD_GOLD"/>
+    </Units>
+</GameInfo>
