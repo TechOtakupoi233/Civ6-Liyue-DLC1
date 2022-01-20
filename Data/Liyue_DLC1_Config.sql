@@ -23,11 +23,20 @@ VALUES
 	/* Domain  */ 'StandardPlayers',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
 	/* LdrType */ 'LEADER_KEQING',
+	/* ItmType */ 'BUILDING_HEYU_TEAHOUSE',
+	/* ItmIcon */ 'ICON_BUILDING_HEYU_TEAHOUSE',
+	/* ItmName */ 'LOC_BUILDING_HEYU_TEAHOUSE_NAME',
+	/* Dscrptn */ 'LOC_BUILDING_HEYU_TEAHOUSE_DESCRIPTION',
+	/* SortIdx */ 31
+),(
+	/* Domain  */ 'StandardPlayers',
+	/* CivType */ 'CIVILIZATION_LIYUE_CL',
+	/* LdrType */ 'LEADER_KEQING',
 	/* ItmType */ 'BUILDING_WANGSHENG_FUNERAL_PARLOR',
 	/* ItmIcon */ 'ICON_BUILDING_WANGSHENG_FUNERAL_PARLOR',
 	/* ItmName */ 'LOC_BUILDING_WANGSHENG_FUNERAL_PARLOR_NAME',
 	/* Dscrptn */ 'LOC_BUILDING_WANGSHENG_FUNERAL_PARLOR_DESCRIPTION',
-	/* SortIdx */ 31
+	/* SortIdx */ 32
 ),(
 	/* Domain  */ 'StandardPlayers',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
@@ -36,16 +45,7 @@ VALUES
 	/* ItmIcon */ 'ICON_BUILDING_WANMIN_RESTAURANT',
 	/* ItmName */ 'LOC_BUILDING_WANMIN_RESTAURANT_NAME',
 	/* Dscrptn */ 'LOC_BUILDING_WANMIN_RESTAURANT_DESCRIPTION',
-	/* SortIdx */ 32
-),(
-	/* Domain  */ 'StandardPlayers',
-	/* CivType */ 'CIVILIZATION_LIYUE_CL',
-	/* LdrType */ 'LEADER_KEQING',
-	/* ItmType */ 'BUILDING_HEYU_TEAHOUSE',
-	/* ItmIcon */ 'ICON_BUILDING_HEYU_TEAHOUSE',
-	/* ItmName */ 'LOC_BUILDING_HEYU_TEAHOUSE_NAME',
-	/* Dscrptn */ 'LOC_BUILDING_HEYU_TEAHOUSE_DESCRIPTION',
-	/* SortIdx */ 34
+	/* SortIdx */ 33
 ),(
 	/* Domain  */ 'StandardPlayers',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
@@ -86,11 +86,20 @@ VALUES
 	/* Domain  */ 'StandardPlayers',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
 	/* LdrType */ 'LEADER_NINGGUANG',
+	/* ItmType */ 'BUILDING_HEYU_TEAHOUSE',
+	/* ItmIcon */ 'ICON_BUILDING_HEYU_TEAHOUSE',
+	/* ItmName */ 'LOC_BUILDING_HEYU_TEAHOUSE_NAME',
+	/* Dscrptn */ 'LOC_BUILDING_HEYU_TEAHOUSE_DESCRIPTION',
+	/* SortIdx */ 31
+),(
+	/* Domain  */ 'StandardPlayers',
+	/* CivType */ 'CIVILIZATION_LIYUE_CL',
+	/* LdrType */ 'LEADER_NINGGUANG',
 	/* ItmType */ 'BUILDING_WANGSHENG_FUNERAL_PARLOR',
 	/* ItmIcon */ 'ICON_BUILDING_WANGSHENG_FUNERAL_PARLOR',
 	/* ItmName */ 'LOC_BUILDING_WANGSHENG_FUNERAL_PARLOR_NAME',
 	/* Dscrptn */ 'LOC_BUILDING_WANGSHENG_FUNERAL_PARLOR_DESCRIPTION',
-	/* SortIdx */ 31
+	/* SortIdx */ 32
 ),(
 	/* Domain  */ 'StandardPlayers',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
@@ -99,16 +108,7 @@ VALUES
 	/* ItmIcon */ 'ICON_BUILDING_WANMIN_RESTAURANT',
 	/* ItmName */ 'LOC_BUILDING_WANMIN_RESTAURANT_NAME',
 	/* Dscrptn */ 'LOC_BUILDING_WANMIN_RESTAURANT_DESCRIPTION',
-	/* SortIdx */ 32
-),(
-	/* Domain  */ 'StandardPlayers',
-	/* CivType */ 'CIVILIZATION_LIYUE_CL',
-	/* LdrType */ 'LEADER_NINGGUANG',
-	/* ItmType */ 'BUILDING_HEYU_TEAHOUSE',
-	/* ItmIcon */ 'ICON_BUILDING_HEYU_TEAHOUSE',
-	/* ItmName */ 'LOC_BUILDING_HEYU_TEAHOUSE_NAME',
-	/* Dscrptn */ 'LOC_BUILDING_HEYU_TEAHOUSE_DESCRIPTION',
-	/* SortIdx */ 34
+	/* SortIdx */ 33
 ),(
 	/* Domain  */ 'StandardPlayers',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
@@ -151,11 +151,20 @@ VALUES
 	/* Domain  */ 'Players:Expansion1_Players',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
 	/* LdrType */ 'LEADER_KEQING',
+	/* ItmType */ 'BUILDING_HEYU_TEAHOUSE',
+	/* ItmIcon */ 'ICON_BUILDING_HEYU_TEAHOUSE',
+	/* ItmName */ 'LOC_BUILDING_HEYU_TEAHOUSE_NAME',
+	/* Dscrptn */ 'LOC_BUILDING_HEYU_TEAHOUSE_DESCRIPTION',
+	/* SortIdx */ 31
+),(
+	/* Domain  */ 'Players:Expansion1_Players',
+	/* CivType */ 'CIVILIZATION_LIYUE_CL',
+	/* LdrType */ 'LEADER_KEQING',
 	/* ItmType */ 'BUILDING_WANGSHENG_FUNERAL_PARLOR',
 	/* ItmIcon */ 'ICON_BUILDING_WANGSHENG_FUNERAL_PARLOR',
 	/* ItmName */ 'LOC_BUILDING_WANGSHENG_FUNERAL_PARLOR_NAME',
 	/* Dscrptn */ 'LOC_BUILDING_WANGSHENG_FUNERAL_PARLOR_DESCRIPTION',
-	/* SortIdx */ 31
+	/* SortIdx */ 32
 ),(
 	/* Domain  */ 'Players:Expansion1_Players',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
@@ -164,16 +173,7 @@ VALUES
 	/* ItmIcon */ 'ICON_BUILDING_WANMIN_RESTAURANT',
 	/* ItmName */ 'LOC_BUILDING_WANMIN_RESTAURANT_NAME',
 	/* Dscrptn */ 'LOC_BUILDING_WANMIN_RESTAURANT_DESCRIPTION',
-	/* SortIdx */ 32
-),(
-	/* Domain  */ 'Players:Expansion1_Players',
-	/* CivType */ 'CIVILIZATION_LIYUE_CL',
-	/* LdrType */ 'LEADER_KEQING',
-	/* ItmType */ 'BUILDING_HEYU_TEAHOUSE',
-	/* ItmIcon */ 'ICON_BUILDING_HEYU_TEAHOUSE',
-	/* ItmName */ 'LOC_BUILDING_HEYU_TEAHOUSE_NAME',
-	/* Dscrptn */ 'LOC_BUILDING_HEYU_TEAHOUSE_DESCRIPTION',
-	/* SortIdx */ 34
+	/* SortIdx */ 33
 ),(
 	/* Domain  */ 'Players:Expansion1_Players',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
@@ -214,11 +214,20 @@ VALUES
 	/* Domain  */ 'Players:Expansion1_Players',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
 	/* LdrType */ 'LEADER_NINGGUANG',
+	/* ItmType */ 'BUILDING_HEYU_TEAHOUSE',
+	/* ItmIcon */ 'ICON_BUILDING_HEYU_TEAHOUSE',
+	/* ItmName */ 'LOC_BUILDING_HEYU_TEAHOUSE_NAME',
+	/* Dscrptn */ 'LOC_BUILDING_HEYU_TEAHOUSE_DESCRIPTION',
+	/* SortIdx */ 31
+),(
+	/* Domain  */ 'Players:Expansion1_Players',
+	/* CivType */ 'CIVILIZATION_LIYUE_CL',
+	/* LdrType */ 'LEADER_NINGGUANG',
 	/* ItmType */ 'BUILDING_WANGSHENG_FUNERAL_PARLOR',
 	/* ItmIcon */ 'ICON_BUILDING_WANGSHENG_FUNERAL_PARLOR',
 	/* ItmName */ 'LOC_BUILDING_WANGSHENG_FUNERAL_PARLOR_NAME',
 	/* Dscrptn */ 'LOC_BUILDING_WANGSHENG_FUNERAL_PARLOR_DESCRIPTION',
-	/* SortIdx */ 31
+	/* SortIdx */ 32
 ),(
 	/* Domain  */ 'Players:Expansion1_Players',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
@@ -227,16 +236,7 @@ VALUES
 	/* ItmIcon */ 'ICON_BUILDING_WANMIN_RESTAURANT',
 	/* ItmName */ 'LOC_BUILDING_WANMIN_RESTAURANT_NAME',
 	/* Dscrptn */ 'LOC_BUILDING_WANMIN_RESTAURANT_DESCRIPTION',
-	/* SortIdx */ 32
-),(
-	/* Domain  */ 'Players:Expansion1_Players',
-	/* CivType */ 'CIVILIZATION_LIYUE_CL',
-	/* LdrType */ 'LEADER_NINGGUANG',
-	/* ItmType */ 'BUILDING_HEYU_TEAHOUSE',
-	/* ItmIcon */ 'ICON_BUILDING_HEYU_TEAHOUSE',
-	/* ItmName */ 'LOC_BUILDING_HEYU_TEAHOUSE_NAME',
-	/* Dscrptn */ 'LOC_BUILDING_HEYU_TEAHOUSE_DESCRIPTION',
-	/* SortIdx */ 34
+	/* SortIdx */ 33
 ),(
 	/* Domain  */ 'Players:Expansion1_Players',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
@@ -279,11 +279,20 @@ VALUES
 	/* Domain  */ 'Players:Expansion2_Players',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
 	/* LdrType */ 'LEADER_KEQING',
+	/* ItmType */ 'BUILDING_HEYU_TEAHOUSE',
+	/* ItmIcon */ 'ICON_BUILDING_HEYU_TEAHOUSE',
+	/* ItmName */ 'LOC_BUILDING_HEYU_TEAHOUSE_NAME',
+	/* Dscrptn */ 'LOC_BUILDING_HEYU_TEAHOUSE_DESCRIPTION',
+	/* SortIdx */ 31
+),(
+	/* Domain  */ 'Players:Expansion2_Players',
+	/* CivType */ 'CIVILIZATION_LIYUE_CL',
+	/* LdrType */ 'LEADER_KEQING',
 	/* ItmType */ 'BUILDING_WANGSHENG_FUNERAL_PARLOR',
 	/* ItmIcon */ 'ICON_BUILDING_WANGSHENG_FUNERAL_PARLOR',
 	/* ItmName */ 'LOC_BUILDING_WANGSHENG_FUNERAL_PARLOR_NAME',
 	/* Dscrptn */ 'LOC_BUILDING_WANGSHENG_FUNERAL_PARLOR_DESCRIPTION',
-	/* SortIdx */ 31
+	/* SortIdx */ 32
 ),(
 	/* Domain  */ 'Players:Expansion2_Players',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
@@ -292,16 +301,7 @@ VALUES
 	/* ItmIcon */ 'ICON_BUILDING_WANMIN_RESTAURANT',
 	/* ItmName */ 'LOC_BUILDING_WANMIN_RESTAURANT_NAME',
 	/* Dscrptn */ 'LOC_BUILDING_WANMIN_RESTAURANT_DESCRIPTION',
-	/* SortIdx */ 32
-),(
-	/* Domain  */ 'Players:Expansion2_Players',
-	/* CivType */ 'CIVILIZATION_LIYUE_CL',
-	/* LdrType */ 'LEADER_KEQING',
-	/* ItmType */ 'BUILDING_HEYU_TEAHOUSE',
-	/* ItmIcon */ 'ICON_BUILDING_HEYU_TEAHOUSE',
-	/* ItmName */ 'LOC_BUILDING_HEYU_TEAHOUSE_NAME',
-	/* Dscrptn */ 'LOC_BUILDING_HEYU_TEAHOUSE_DESCRIPTION',
-	/* SortIdx */ 34
+	/* SortIdx */ 33
 ),(
 	/* Domain  */ 'Players:Expansion2_Players',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
@@ -342,11 +342,20 @@ VALUES
 	/* Domain  */ 'Players:Expansion2_Players',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
 	/* LdrType */ 'LEADER_NINGGUANG',
+	/* ItmType */ 'BUILDING_HEYU_TEAHOUSE',
+	/* ItmIcon */ 'ICON_BUILDING_HEYU_TEAHOUSE',
+	/* ItmName */ 'LOC_BUILDING_HEYU_TEAHOUSE_NAME',
+	/* Dscrptn */ 'LOC_BUILDING_HEYU_TEAHOUSE_DESCRIPTION',
+	/* SortIdx */ 31
+),(
+	/* Domain  */ 'Players:Expansion2_Players',
+	/* CivType */ 'CIVILIZATION_LIYUE_CL',
+	/* LdrType */ 'LEADER_NINGGUANG',
 	/* ItmType */ 'BUILDING_WANGSHENG_FUNERAL_PARLOR',
 	/* ItmIcon */ 'ICON_BUILDING_WANGSHENG_FUNERAL_PARLOR',
 	/* ItmName */ 'LOC_BUILDING_WANGSHENG_FUNERAL_PARLOR_NAME',
 	/* Dscrptn */ 'LOC_BUILDING_WANGSHENG_FUNERAL_PARLOR_DESCRIPTION',
-	/* SortIdx */ 31
+	/* SortIdx */ 32
 ),(
 	/* Domain  */ 'Players:Expansion2_Players',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
@@ -355,16 +364,7 @@ VALUES
 	/* ItmIcon */ 'ICON_BUILDING_WANMIN_RESTAURANT',
 	/* ItmName */ 'LOC_BUILDING_WANMIN_RESTAURANT_NAME',
 	/* Dscrptn */ 'LOC_BUILDING_WANMIN_RESTAURANT_DESCRIPTION',
-	/* SortIdx */ 32
-),(
-	/* Domain  */ 'Players:Expansion2_Players',
-	/* CivType */ 'CIVILIZATION_LIYUE_CL',
-	/* LdrType */ 'LEADER_NINGGUANG',
-	/* ItmType */ 'BUILDING_HEYU_TEAHOUSE',
-	/* ItmIcon */ 'ICON_BUILDING_HEYU_TEAHOUSE',
-	/* ItmName */ 'LOC_BUILDING_HEYU_TEAHOUSE_NAME',
-	/* Dscrptn */ 'LOC_BUILDING_HEYU_TEAHOUSE_DESCRIPTION',
-	/* SortIdx */ 34
+	/* SortIdx */ 33
 ),(
 	/* Domain  */ 'Players:Expansion2_Players',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
