@@ -2,6 +2,15 @@
 <GameData>
 	<LocalizedText>
 		<!-- Pedia text (historical context) about the new building. -->
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HEYU_TEAHOUSE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>「和裕茶馆」历来是璃月人工作之余的一大好去处。[NEWLINE]和裕茶馆的生意之所以如此兴隆，一是老板范二爷经营得当，请的茶博士说起书来是一绝。二是璃月知名的戏社「云翰社」正挂靠在此。云翰社如今的当家兼顶梁柱——名角云堇，有时会来登台开唱。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HEYU_TEAHOUSE_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>美味的小吃也好，说书人的故事也好，只要去对地方，随时都能享受。唯独听云堇唱戏的机会，实在不常有。所以，云堇的戏迷们常常守在和裕茶馆，谈论云堇演唱过的戏，交流各自赏戏的体会。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HEYU_TEAHOUSE_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>茶馆里多了不少常客，十个里九个是云堇的戏迷。[NEWLINE]范二爷对此很是满意。</Text>
+		</Row>
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_WANGSHENG_FUNERAL_PARLOR_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>往生堂是璃月一间历史悠久的丧葬业服务公司。与一般的同行不同，堂内有一位熟知一些早已失传的传统的客卿钟离先生坐镇，使往生堂有能力主持像之前的“送仙典仪”那样的古老传统仪式。而且，往生堂第七十七代堂主胡桃也是一位神之眼持有者。</Text>
 		</Row>
@@ -19,9 +28,6 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_LAWHOUSE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text></Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_HEYU_TEAHOUSE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
-			<Text>一张屏风和几套桌椅，一个说书人和一壶好茶。茶室是包括岩王帝君在内的璃月人都喜欢光顾的地方。除了评书之外，要是遇上了云堇上戏台的日子，闻名而来的看客能把小小的茶馆里三层外三层围得水泄不通。</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_WANWEN_BOOKHOUSE_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text></Text>
