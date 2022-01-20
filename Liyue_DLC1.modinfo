@@ -11,7 +11,7 @@
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
   </Properties>
   <Dependencies>
-    <Mod id="4fda3be4-c2a6-43fd-8e2e-4936ac7e8ae4" title="Liyue Civilization Pack"/>
+    <Mod id="4fda3be4-c2a6-43fd-8e2e-4936ac7e8ae4" title="璃月文明包/Liyue Civilization Pack"/>
   </Dependencies>
   <References>
     <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="LOC_EXPANSION2_MOD_TITLE"/>
@@ -22,17 +22,17 @@
 			<zh_Hans_CN>璃月文明包DLC：飞彩镌流年</zh_Hans_CN>
 		</Text>
 		<Text id="LOC_LIYUE_DLC1_MOD_TEASER_CL">
-      <en_US>New Civilization and Leader - Keqing of Liyue</en_US>
-			<zh_Hans_CN>璃月文明包的可下载内容</zh_Hans_CN>
+      <en_US>DownLoadable Content for Liyue Civilization Pack.</en_US>
+			<zh_Hans_CN>璃月文明包的可下载内容。</zh_Hans_CN>
 		</Text>
 		<Text id="LOC_LIYUE_DLC1_MOD_DESCRIPTION_CL">
-      <en_US>Contains a new civilization and leader.</en_US>
+      <en_US>Contains mulitple new unique buildings, units, and  the Jade Chamber series of special projects.</en_US>
 			<zh_Hans_CN>包含多种全新独特建筑、独特单位及群玉阁系列特色项目。</zh_Hans_CN>
 		</Text>
   </LocalizedText>
   <ActionCriteria>
     <Criteria id="leaderPlayable">
-      <LeaderPlayable>Players:StandardPlayers::LEADER_KEQING,Players:Expansion1_Players::LEADER_KEQING,Players:Expansion2_Players::LEADER_KEQING</LeaderPlayable>
+      <LeaderPlayable>Players:StandardPlayers::LEADER_KEQING,Players:StandardPlayers::LEADER_NINGGUANG,Players:Expansion1_Players::LEADER_KEQING,Players:Expansion1_Players::LEADER_NINGGUANG,Players:Expansion2_Players::LEADER_KEQING,Players:Expansion2_Players::LEADER_NINGGUANG</LeaderPlayable>
     </Criteria>
     <Criteria id="Expansion1">
       <GameCoreInUse>Expansion1,Expansion2</GameCoreInUse>
@@ -73,7 +73,7 @@
       </Properties>
       <Criteria>leaderPlayable</Criteria>
       <File>Data/Liyue_DLC1_Civilization.xml</File>
-      <File>Data/Liyue_DLC1_Gui_Zhong_Ballista_MPT.xml</File>
+      <File>Data/Liyue_DLC1_Gui_Zhong_Ballista.xml</File>
       <File>Data/Liyue_DLC1_Jade_Chamber.xml</File>
     </UpdateDatabase>
     <UpdateDatabase id="LiyueDatebase_XP2">
@@ -109,7 +109,7 @@
     </UpdateText>
     <AddGameplayScripts id="LiyueGameplayScripts">
       <Criteria>leaderPlayable</Criteria>
-      <File>Data/Liyue_DLC1_Keqing_Ability.lua</File>
+      <File></File>
     </AddGameplayScripts>
     <AddUserInterfaces id="LiyueUserInterfaces_NoMondstadtXP1andBeyond">
       <Properties>
@@ -126,7 +126,7 @@
     <File>Data/Liyue_DLC1_Config_XP2.sql</File>
     <File>Data/Liyue_DLC1_Civilization.xml</File>
     <File>Data/Liyue_DLC1_XinYan_Rock_Band.xml</File>
-    <File>Data/Liyue_DLC1_Gui_Zhong_Ballista_MPT.xml</File>
+    <File>Data/Liyue_DLC1_Gui_Zhong_Ballista.xml</File>
     <File>Data/Liyue_DLC1_Jade_Chamber.xml</File>
     <File>Text/Liyue_DLC1_ConfigText.xml</File>
     <File>Text/Liyue_DLC1_Text.xml</File>
