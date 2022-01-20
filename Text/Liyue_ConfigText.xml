@@ -44,11 +44,17 @@
 			<Text>{LOC_LIYUE_TRAIT_PREFIX}建筑，此城市的人口增长速度提高25%，驻守于此城市内的单位每回合恢复更多生命值。</Text>
 		</Row>
 
-		<Row Tag="LOC_UNIT_MILLELITH_NAME" Language="zh_Hans_CN">
+		<Row Tag="LOC_UNIT_GUI_ZHONG_BALLISTA_MPT_NAME" Language="zh_Hans_CN">
 			<Text>量产型归终机</Text>
 		</Row>
-		<Row Tag="LOC_UNIT_MILLELITH_DESCRIPTION" Language="zh_Hans_CN">
+		<Row Tag="LOC_UNIT_GUI_ZHONG_BALLISTA_MPT_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>{LOC_LIYUE_TRAIT_PREFIX}远程单位。无法在同一回合行动且攻击。拥有更高的 [ICON_Ranged] 远程攻击力和额外 [ICON_Range] 射程，如果受刻晴指挥则+1 [ICON_Movement] 移动力，并可在移动后攻击。</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GUI_ZHONG_BALLISTA_BOAT_NAME" Language="zh_Hans_CN">
+			<Text>量产型归终机炮艇</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_GUI_ZHONG_BALLISTA_BOAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_LIYUE_TRAIT_PREFIX}海军远程单位。拥有更高的 [ICON_Ranged] 远程攻击力和额外 [ICON_Range] 射程。</Text>
 		</Row>
 	</LocalizedText>
 </GameData>

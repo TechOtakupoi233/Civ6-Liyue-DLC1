@@ -2,6 +2,7 @@
 <GameInfo>
     <Types>
         <Row Type="UNIT_GUI_ZHONG_BALLISTA_MPT" Kind="KIND_UNIT"/>
+        <Row Type="UNIT_GUI_ZHONG_BALLISTA_BOAT" Kind="KIND_UNIT"/>
     </Types>
     <UnitAiInfos>
 		<Row UnitType="UNIT_GUI_ZHONG_BALLISTA_MPT" AiType="UNITAI_COMBAT"/>
@@ -9,17 +10,23 @@
 		<Row UnitType="UNIT_GUI_ZHONG_BALLISTA_MPT" AiType="UNITTYPE_SIEGE"/>
 		<Row UnitType="UNIT_GUI_ZHONG_BALLISTA_MPT" AiType="UNITTYPE_SIEGE_ALL"/>
 		<Row UnitType="UNIT_GUI_ZHONG_BALLISTA_MPT" AiType="UNITTYPE_LAND_COMBAT"/>
+		<Row UnitType="UNIT_GUI_ZHONG_BALLISTA_BOAT" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_GUI_ZHONG_BALLISTA_BOAT" AiType="UNITTYPE_RANGED"/>
+		<Row UnitType="UNIT_GUI_ZHONG_BALLISTA_BOAT" AiType="UNITTYPE_NAVAL"/>
     </UnitAiInfos>
 	<TypeTags>
 		<Row Type="UNIT_GUI_ZHONG_BALLISTA_MPT" Tag="CLASS_RANGED"/>
 		<Row Type="UNIT_GUI_ZHONG_BALLISTA_MPT" Tag="CLASS_SIEGE_SETUP"/>
 		<Row Type="UNIT_GUI_ZHONG_BALLISTA_MPT" Tag="CLASS_FORWARD_OBSERVER"/>
+		<Row Type="UNIT_GUI_ZHONG_BALLISTA_BOAT" Tag="CLASS_NAVAL_RANGED"/>
 	</TypeTags>
     <Units>
-		<Row UnitType="UNIT_GUI_ZHONG_BALLISTA_MPT" Cost="300" Maintenance="4" BaseMoves="2" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="45" RangedCombat="60" Range="3" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_SIEGE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_GUI_ZHONG_BALLISTA_MPT_NAME" Description="LOC_UNIT_GUI_ZHONG_BALLISTA_MPT_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_GUIDANCE_SYSTEMS" PrereqTech="TECH_METAL_CASTING"/>
+		<Row UnitType="UNIT_GUI_ZHONG_BALLISTA_MPT" Cost="280" Maintenance="4" BaseMoves="2" BaseSightRange="3" ZoneOfControl="false" Domain="DOMAIN_LAND" Combat="45" RangedCombat="65" Range="3" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_SIEGE" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_GUI_ZHONG_BALLISTA_MPT_NAME" Description="LOC_UNIT_GUI_ZHONG_BALLISTA_MPT_DESCRIPTION" PurchaseYield="YIELD_GOLD" MandatoryObsoleteTech="TECH_GUIDANCE_SYSTEMS" PrereqTech="TECH_METAL_CASTING"/>
+		<Row UnitType="UNIT_GUI_ZHONG_BALLISTA_BOAT" Cost="300" Maintenance="4" BaseMoves="4" BaseSightRange="3" ZoneOfControl="true" Domain="DOMAIN_SEA" Combat="45" RangedCombat="65" Range="3" FormationClass="FORMATION_CLASS_NAVAL" PromotionClass="PROMOTION_CLASS_NAVAL_RANGED" AdvisorType="ADVISOR_CONQUEST" Name="LOC_UNIT_GUI_ZHONG_BALLISTA_BOAT_NAME" Description="LOC_UNIT_GUI_ZHONG_BALLISTA_BOAT_DESCRIPTION" PurchaseYield="YIELD_GOLD" PseudoYieldType="PSEUDOYIELD_UNIT_NAVAL_COMBAT" MandatoryObsoleteTech="TECH_LASERS" PrereqTech="TECH_METAL_CASTING"/>
     </Units>
 	<UnitUpgrades>
 		<Row Unit="UNIT_GUI_ZHONG_BALLISTA_MPT" UpgradeUnit="UNIT_ARTILLERY"/>
+		<Row Unit="UNIT_GUI_ZHONG_BALLISTA_MPT" UpgradeUnit="UNIT_BATTLESHIP"/>
 	</UnitUpgrades>
 	<UnitAbilities>
 		<Row UnitAbilityType="ABILITY_GUI_ZHONG_BALLISTA_MPT_KEQING" Name="LOC_ABILITY_GUI_ZHONG_BALLISTA_MPT_KEQING_NAME" Description="LOC_ABILITY_GUI_ZHONG_BALLISTA_MPT_KEQING_DESCRIPTION"/>

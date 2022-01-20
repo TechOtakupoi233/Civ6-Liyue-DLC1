@@ -29,5 +29,12 @@
 		<Row Tag="LOC_PEDIA_BUILDINGS_PAGE_BUILDING_BUBU_PHARMACY_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text></Text>
 		</Row>
+
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GUI_ZHONG_BALLISTA_MPT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>通过对归终留下的原版归终机进行逆向工程并加以改造而成的新式归终机。虽然性能不及原版，但胜在能够量产。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GUI_ZHONG_BALLISTA_BOAT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>通过对归终留下的原版归终机进行逆向工程并加以改造而成的新式归终机的舰炮版本。虽然性能不及原版，但胜在能够量产。</Text>
+		</Row>
 	</LocalizedText>
 </GameData>

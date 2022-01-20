@@ -17,4 +17,4 @@ VALUES (
 	/* ItmName */ 'LOC_UNIT_XINYAN_ROCK_BAND_NAME',
 	/* Dscrptn */ 'LOC_UNIT_XINYAN_ROCK_BAND_DESCRIPTION',
 	/* SortIdx */ 15
-)
+);
