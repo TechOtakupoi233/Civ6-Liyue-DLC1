@@ -261,6 +261,15 @@ VALUES
 	/* Domain  */ 'Players:Expansion2_Players',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
 	/* LdrType */ 'LEADER_KEQING',
+	/* ItmType */ 'UNIT_XINYAN_ROCK_BAND',
+	/* ItmIcon */ 'ICON_UNIT_XINYAN_ROCK_BAND',
+	/* ItmName */ 'LOC_UNIT_XINYAN_ROCK_BAND_NAME',
+	/* Dscrptn */ 'LOC_UNIT_XINYAN_ROCK_BAND_DESCRIPTION',
+	/* SortIdx */ 15
+),(
+	/* Domain  */ 'Players:Expansion2_Players',
+	/* CivType */ 'CIVILIZATION_LIYUE_CL',
+	/* LdrType */ 'LEADER_KEQING',
 	/* ItmType */ 'UNIT_GUI_ZHONG_BALLISTA_MPT',
 	/* ItmIcon */ 'ICON_UNIT_GUI_ZHONG_BALLISTA_MPT',
 	/* ItmName */ 'LOC_UNIT_GUI_ZHONG_BALLISTA_MPT_NAME',
@@ -320,6 +329,15 @@ VALUES
 	/* ItmName */ 'LOC_BUILDING_BUBU_PHARMACY_NAME',
 	/* Dscrptn */ 'LOC_BUILDING_BUBU_PHARMACY_DESCRIPTION',
 	/* SortIdx */ 36
+),(
+	/* Domain  */ 'Players:Expansion2_Players',
+	/* CivType */ 'CIVILIZATION_LIYUE_CL',
+	/* LdrType */ 'LEADER_NINGGUANG',
+	/* ItmType */ 'UNIT_XINYAN_ROCK_BAND',
+	/* ItmIcon */ 'ICON_UNIT_XINYAN_ROCK_BAND',
+	/* ItmName */ 'LOC_UNIT_XINYAN_ROCK_BAND_NAME',
+	/* Dscrptn */ 'LOC_UNIT_XINYAN_ROCK_BAND_DESCRIPTION',
+	/* SortIdx */ 15
 ),(
 	/* Domain  */ 'Players:Expansion2_Players',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
