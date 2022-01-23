@@ -21,7 +21,7 @@
   <Reference type="Dlc" title="LOC_EXPANSION2_MOD_TITLE" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
   <Dependency type="Mod" title="璃月文明包/Liyue Civilization Pack" id="4fda3be4-c2a6-43fd-8e2e-4936ac7e8ae4" />
 </Associations>]]></AssociationData>
-    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="LiyueDLC1ConfigData"><File priority="10">Data/Liyue_DLC1_Config.sql</File></UpdateDatabase><UpdateText id="LiyueDLC1ConfigText"><File priority="10">Text/Liyue_ConfigText.xml</File></UpdateText><UpdateIcons id="LiyueDLC1ConfigIcon" /><UpdateDatabase id="LiyueDLC1ConfigArt"><File>(Mod Art Dependency File)</File></UpdateDatabase></FrontEndActions>]]></FrontEndActionData>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="LiyueDLC1ConfigData"><File priority="10">Data/Liyue_DLC1_Config.sql</File></UpdateDatabase><UpdateText id="LiyueDLC1ConfigText"><File priority="10">Text/Liyue_ConfigText.xml</File></UpdateText><UpdateIcons id="LiyueDLC1ConfigIcon" /><UpdateArt id="LiyueDLC1ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
     <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="LiyueDLC1Data"><File priority="10">Data/Liyue_Civilization.xml</File><File priority="10">Data/Liyue_Gui_Zhong_Ballista.xml</File><File priority="10">Data/Liyue_Jade_Chamber.xml</File></UpdateDatabase><UpdateDatabase id="LiyueDLC1Data_XP2"><Criteria>Expansion2</Criteria><File priority="10">Data/Liyue_XinYan_Rock_Band.xml</File></UpdateDatabase><UpdateIcons id="LiyueDLC1Icons" /><UpdateText id="LiyueDLC1Text"><File priority="10">Text/Liyue_Text.xml</File><File priority="10">Text/Liyue_ConfigText.xml</File></UpdateText><UpdateArt id="LiyueDLC1Art"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="Expansion2"><RuleSetInUse><Expansion2>Expansion2</Expansion2></RuleSetInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
   </PropertyGroup>
@@ -29,7 +29,7 @@
     <OutputPath>.</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <None Include="Liyue_DLC1.Art.xml" />
+    <None Include="Liyue-DLC1.Art.xml" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Data\Liyue_Civilization.xml">
