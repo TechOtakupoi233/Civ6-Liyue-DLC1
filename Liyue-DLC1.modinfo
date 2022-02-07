@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mod id="8e84dc01-d02f-4817-8537-6b75c195a235" version="1">
+  <Properties>
+    <Name>LOC_LIYUE_DLC1_MOD_TITLE_CL</Name>
+    <Description>LOC_LIYUE_DLC1_MOD_DESCRIPTION_CL</Description>
+    <Created>1644239187</Created>
+    <Teaser>LOC_LIYUE_DLC1_MOD_DESCRIPTION_CL</Teaser>
+    <Authors>CLHotuski, Dwughjsd, KevinLiu</Authors>
+    <SpecialThanks>hemmelfort</SpecialThanks>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+  </Properties>
+  <Dependencies>
+    <Mod id="4fda3be4-c2a6-43fd-8e2e-4936ac7e8ae4" title="璃月文明包/Liyue Civilization Pack" />
+  </Dependencies>
+  <References>
+    <Mod id="4873eb62-8ccc-4574-b784-dda455e74e68" title="LOC_EXPANSION2_MOD_TITLE" />
+  </References>
+  <LocalizedText>
+    <Text id="LOC_LIYUE_DLC1_MOD_TITLE_CL">
+      <en_US>Liyue DLC : Fleeting Colors in Flight</en_US>
+			<zh_Hans_CN>璃月文明包DLC：飞彩镌流年</zh_Hans_CN>
+		</Text>
+		<Text id="LOC_LIYUE_DLC1_MOD_TEASER_CL">
+      <en_US>DownLoadable Content for Liyue Civilization Pack.</en_US>
+			<zh_Hans_CN>璃月文明包的可下载内容。</zh_Hans_CN>
+		</Text>
+		<Text id="LOC_LIYUE_DLC1_MOD_DESCRIPTION_CL">
+      <en_US>Contains mulitple new unique buildings, units, and  the Jade Chamber series of special projects.</en_US>
+			<zh_Hans_CN>包含多种全新独特建筑、独特单位及群玉阁系列特色项目。</zh_Hans_CN>
+		</Text>
+  </LocalizedText>
+  <ActionCriteria>
+    <Criteria id="Expansion2">
+      <RuleSetInUse>
+        <Expansion2>Expansion2</Expansion2>
+      </RuleSetInUse>
+    </Criteria>
+  </ActionCriteria>
+  <FrontEndActions>
+    <UpdateDatabase id="LiyueDLC1ConfigData">
+      <File priority="10">Data/Liyue_DLC1_Config.sql</File>
+    </UpdateDatabase>
+    <UpdateText id="LiyueDLC1ConfigText">
+      <File priority="10">Text/Liyue_ConfigText.xml</File>
+    </UpdateText>
+    <UpdateIcons id="LiyueDLC1ConfigIcon" />
+    <UpdateArt id="LiyueDLC1ConfigArt">
+      <File>Liyue-DLC1.dep</File>
+    </UpdateArt>
+  </FrontEndActions>
+  <InGameActions>
+    <UpdateDatabase id="LiyueDLC1Data">
+      <File priority="10">Data/Liyue_Civilization.xml</File>
+      <File priority="10">Data/Liyue_Gui_Zhong_Ballista.xml</File>
+      <File priority="10">Data/Liyue_Jade_Chamber.xml</File>
+      <File priority="10">Data/Liyue_Buildings.xml</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="LiyueDLC1Data_XP2">
+      <Criteria>Expansion2</Criteria>
+      <File priority="10">Data/Liyue_XinYan_Rock_Band.xml</File>
+    </UpdateDatabase>
+    <UpdateIcons id="LiyueDLC1Icons" />
+    <UpdateText id="LiyueDLC1Text">
+      <File priority="10">Text/Liyue_Text.xml</File>
+      <File priority="10">Text/Liyue_ConfigText.xml</File>
+    </UpdateText>
+    <UpdateArt id="LiyueDLC1Art">
+      <File>Liyue-DLC1.dep</File>
+    </UpdateArt>
+  </InGameActions>
+  <Files>
+    <File>Data/Liyue_Buildings.xml</File>
+    <File>Data/Liyue_Civilization.xml</File>
+    <File>Data/Liyue_DLC1_Config.sql</File>
+    <File>Data/Liyue_Gui_Zhong_Ballista.xml</File>
+    <File>Data/Liyue_Jade_Chamber.lua</File>
+    <File>Data/Liyue_Jade_Chamber.xml</File>
+    <File>Data/Liyue_XinYan_Rock_Band.xml</File>
+    <File>Platforms/Windows/BLPs/LiyueDLC1UI.blp</File>
+    <File>Text/Liyue_ConfigText.xml</File>
+    <File>Text/Liyue_Text.xml</File>
+  </Files>
+</Mod>
