@@ -16,4 +16,7 @@
     <UnitReplaces>
 		<Row CivUniqueUnitType="UNIT_XINYAN_ROCK_BAND" ReplacesUnitType="UNIT_ROCK_BAND"/>
     </UnitReplaces>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_XINYAN_ROCK_BAND" Texture="MOMENT_UNIT_XINYAN_ROCK_BAND"/>
+	</MomentIllustrations>
 </GameInfo>

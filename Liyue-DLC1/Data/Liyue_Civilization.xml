@@ -11,8 +11,6 @@
 	</Types>
 
 	<CivilizationLeaders>
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" LeaderType="LEADER_KEQING" CapitalName="LOC_CITY_NAME_LIYUE_CL_1" />
-		<Row CivilizationType="CIVILIZATION_LIYUE_CL" LeaderType="LEADER_NINGGUANG" CapitalName="LOC_CITY_NAME_LIYUE_CL_1" />
 	</CivilizationLeaders>
 
 	<CivilizationTraits>
@@ -51,11 +49,5 @@
 	<ModifierStrings>
 	</ModifierStrings>
 	<MomentIllustrations>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_HEYU_TEAHOUSE" Texture="MOMENT_BUILDING_HEYU_TEAHOUSE"/>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_WANGSHENG_FUNERAL_PARLOR" Texture="MOMENT_BUILDING_WANGSHENG_FUNERAL_PARLOR"/>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_WANMIN_RESTAURANT" Texture="MOMENT_BUILDING_WANMIN_RESTAURANT"/>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_LAWHOUSE" Texture="MOMENT_BUILDING_LAWHOUSE"/>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_BUILDING" MomentDataType="MOMENT_DATA_BUILDING" GameDataType="BUILDING_WANWEN_BOOKHOUSE" Texture="MOMENT_BUILDING_WANWEN_BOOKHOUSE"/>
-		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_UNIT" MomentDataType="MOMENT_DATA_UNIT" GameDataType="UNIT_MILLELITH" Texture="MOMENT_UNIT_MILLELITH"/>
 	</MomentIllustrations>
 </GameData>
