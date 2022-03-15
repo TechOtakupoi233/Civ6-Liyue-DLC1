@@ -8,7 +8,48 @@
 	</m_Version>
 	<m_ClassName text="UITexture"/>
 	<m_PackageName text="LiyueDLC1UI"/>
-	<m_Entries/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_HEYU_TEAHOUSE_128"/>
+			<m_ObjectName text="ICON_BUILDING_HEYU_TEAHOUSE_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_HEYU_TEAHOUSE_256"/>
+			<m_ObjectName text="ICON_BUILDING_HEYU_TEAHOUSE_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_HEYU_TEAHOUSE_32"/>
+			<m_ObjectName text="ICON_BUILDING_HEYU_TEAHOUSE_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_HEYU_TEAHOUSE_38"/>
+			<m_ObjectName text="ICON_BUILDING_HEYU_TEAHOUSE_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_HEYU_TEAHOUSE_50"/>
+			<m_ObjectName text="ICON_BUILDING_HEYU_TEAHOUSE_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_HEYU_TEAHOUSE_80"/>
+			<m_ObjectName text="ICON_BUILDING_HEYU_TEAHOUSE_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UI_ChapterIcon_Qunyuge"/>
+			<m_ObjectName text="UI_ChapterIcon_Qunyuge"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UI_LEADER_KEQING_COSTUME"/>
+			<m_ObjectName text="UI_LEADER_KEQING_COSTUME"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UI_LEADER_KEQING_COSTUME_600"/>
+			<m_ObjectName text="UI_LEADER_KEQING_COSTUME_600"/>
+		</Element>
+		<Element>
+			<m_EntryID text="UI_LEADER_NINGGUANG_COSTUME_600"/>
+			<m_ObjectName text="UI_LEADER_NINGGUANG_COSTUME_600"/>
+		</Element>
+	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
 	</m_AllowedPlatforms>
