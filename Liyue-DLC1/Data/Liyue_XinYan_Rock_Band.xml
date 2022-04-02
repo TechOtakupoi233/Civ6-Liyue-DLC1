@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameInfo>
     <Types>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_XINYAN_ROCK_BAND" Kind="KIND_TRAIT"/>
         <Row Type="UNIT_XINYAN_ROCK_BAND" Kind="KIND_UNIT"/>
     </Types>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_UNIT_XINYAN_ROCK_BAND"/>
+	</CivilizationTraits>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_XINYAN_ROCK_BAND"/>
+	</Traits>
+	
 	<TypeTags>
 		<Row Type="UNIT_XINYAN_ROCK_BAND" Tag="CLASS_LANDCIVILIAN"/>
 		<Row Type="UNIT_XINYAN_ROCK_BAND" Tag="CLASS_ROCK_BAND"/>

@@ -34,10 +34,6 @@
 			<m_ObjectName text="ICON_BUILDING_HEYU_TEAHOUSE_80"/>
 		</Element>
 		<Element>
-			<m_EntryID text="UI_ChapterIcon_Qunyuge"/>
-			<m_ObjectName text="UI_ChapterIcon_Qunyuge"/>
-		</Element>
-		<Element>
 			<m_EntryID text="ICON_UNIT_GUI_ZHONG_BALLISTA_MPT_22"/>
 			<m_ObjectName text="ICON_UNIT_GUI_ZHONG_BALLISTA_MPT_22"/>
 		</Element>
@@ -60,6 +56,30 @@
 		<Element>
 			<m_EntryID text="ICON_UNIT_GUI_ZHONG_BALLISTA_MPT_80"/>
 			<m_ObjectName text="ICON_UNIT_GUI_ZHONG_BALLISTA_MPT_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_WANGSHENG_FUNERAL_PARLOR_128"/>
+			<m_ObjectName text="ICON_BUILDING_WANGSHENG_FUNERAL_PARLOR_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_WANGSHENG_FUNERAL_PARLOR_256"/>
+			<m_ObjectName text="ICON_BUILDING_WANGSHENG_FUNERAL_PARLOR_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_WANGSHENG_FUNERAL_PARLOR_32"/>
+			<m_ObjectName text="ICON_BUILDING_WANGSHENG_FUNERAL_PARLOR_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_WANGSHENG_FUNERAL_PARLOR_38"/>
+			<m_ObjectName text="ICON_BUILDING_WANGSHENG_FUNERAL_PARLOR_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_WANGSHENG_FUNERAL_PARLOR_50"/>
+			<m_ObjectName text="ICON_BUILDING_WANGSHENG_FUNERAL_PARLOR_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_WANGSHENG_FUNERAL_PARLOR_80"/>
+			<m_ObjectName text="ICON_BUILDING_WANGSHENG_FUNERAL_PARLOR_80"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<Types>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_HEYU_TEAHOUSE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_WANGSHENG_FUNERAL_PARLOR" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_WANMIN_RESTAURANT" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_LAWHOUSE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_WANWEN_BOOKHOUSE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_BUBU_PHARMACY" Kind="KIND_TRAIT"/>
+	</Types>
+
+	<CivilizationLeaders>
+	</CivilizationLeaders>
+
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_BUILDING_HEYU_TEAHOUSE"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_BUILDING_WANGSHENG_FUNERAL_PARLOR"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_BUILDING_WANMIN_RESTAURANT"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_BUILDING_WANWEN_BOOKHOUSE"/>
+		<Row CivilizationType="CIVILIZATION_LIYUE_CL" TraitType="TRAIT_CIVILIZATION_BUILDING_BUBU_PHARMACY"/>
+	</CivilizationTraits>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_HEYU_TEAHOUSE" Name="LOC_BUILDING_HEYU_TEAHOUSE_NAME" Description="LOC_BUILDING_HEYU_TEAHOUSE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_WANGSHENG_FUNERAL_PARLOR" Name="LOC_BUILDING_WANGSHENG_FUNERAL_PARLOR_NAME" Description="LOC_BUILDING_WANGSHENG_FUNERAL_PARLOR_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_WANMIN_RESTAURANT" Name="LOC_BUILDING_WANMIN_RESTAURANT_NAME" Description="LOC_BUILDING_WANMIN_RESTAURANT_DESCRIPTION"/>
+		<!--<Row TraitType="TRAIT_CIVILIZATION_BUILDING_LAWHOUSE" Name="LOC_BUILDING_LAWHOUSE_NAME" Description="LOC_BUILDING_LAWHOUSE_DESCRIPTION"/> -->
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_WANWEN_BOOKHOUSE" Name="LOC_BUILDING_WANWEN_BOOKHOUSE_NAME" Description="LOC_BUILDING_WANWEN_BOOKHOUSE_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_BUBU_PHARMACY" Name="LOC_BUILDING_BUBU_PHARMACY_NAME" Description="LOC_BUILDING_BUBU_PHARMACY_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+	</TraitModifiers>
+	<Modifiers>
+	</Modifiers>
+	<ModifierArguments>
+	</ModifierArguments>
+	<!-- =============== RequirementSets =============== -->
+	<RequirementSets>
+	</RequirementSets>
+	<RequirementSetRequirements>
+	</RequirementSetRequirements>
+	<!-- +++++++++++++++ Requirements +++++++++++++++ -->
+	<Requirements>
+	</Requirements>
+	<RequirementArguments>
+	</RequirementArguments>
+	<ModifierStrings>
+	</ModifierStrings>
+	<MomentIllustrations>
+	</MomentIllustrations>
+</GameData>
