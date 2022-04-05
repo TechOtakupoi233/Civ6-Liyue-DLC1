@@ -475,7 +475,7 @@
 		<Element>
 			<libraryName text="UITexture"/>
 			<relativePackagePaths>
-				<Element text="LiyueDLC1UI"/>
+				<Element text="LiyueUI_DLC1"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
