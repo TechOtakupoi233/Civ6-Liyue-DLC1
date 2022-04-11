@@ -11,7 +11,7 @@ function GetSotSCount(iPlayerID, maxNum)
 			numSotS = 0
 			for i, pCity in pPlayerCities:Members() do
 				local pCityBuildings= pCity:GetBuildings();
-				if (pCityBuildings:HasBuilding(buildingSotS.Index)) then
+				if (pCityBuildings:HasBuilding(buildingSotS.Index) and (not pCityBuildings:IsPillaged(buildingSotS.Index))) then
 					if numSotS < maxNum then
 						numSotS = numSotS + 1
 					else
@@ -44,7 +44,7 @@ function SotSAction(iPlayerID, iUnitID, PlotX, PlotY)		-- Core action code of th
 			if (pCity ~= nil) then
 				local pCityBuildings= pCity:GetBuildings();
 				local buildingSotS = GameInfo.Buildings["BUILDING_STATUE_OF_THE_SEVEN"];
-				if (pCityBuildings:HasBuilding(buildingSotS.Index)) then
+				if (pCityBuildings:HasBuilding(buildingSotS.Index) and (not pCityBuildings:IsPillaged(buildingSotS.Index))) then
 					local pUnit = UnitManager.GetUnit(iPlayerID, iUnitID);
 					if (pUnit ~= nil and pUnit:GetDamage() ~= 0) then
 						local healPoint = math.min( (SotSHealCapability-SotSHealCapUsed), pUnit:GetDamage());
