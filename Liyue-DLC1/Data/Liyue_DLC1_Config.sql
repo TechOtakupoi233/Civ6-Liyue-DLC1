@@ -148,7 +148,7 @@ VALUES
 ),
 /* Expansion2 */
 (
-	/* Domain  */ 'Players:Expansion1_Players',
+	/* Domain  */ 'Players:Expansion2_Players',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
 	/* LdrType */ 'LEADER_KEQING',
 	/* ItmType */ 'IMPROVEMENT_SOT7',
@@ -229,7 +229,7 @@ VALUES
 	/* Dscrptn */ 'LOC_BUILDING_BUBU_PHARMACY_DESCRIPTION',
 	/* SortIdx */ 36
 ),(
-	/* Domain  */ 'Players:Expansion1_Players',
+	/* Domain  */ 'Players:Expansion2_Players',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
 	/* LdrType */ 'LEADER_NINGGUANG',
 	/* ItmType */ 'IMPROVEMENT_SOT7',
