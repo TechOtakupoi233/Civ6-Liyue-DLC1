@@ -5,6 +5,15 @@ VALUES
 	/* Domain  */ 'Players:Expansion1_Players',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
 	/* LdrType */ 'LEADER_KEQING',
+	/* ItmType */ 'IMPROVEMENT_SOT7',
+	/* ItmIcon */ 'ICON_IMPROVEMENT_SOT7',
+	/* ItmName */ 'LOC_IMPROVEMENT_SOT7_NAME',
+	/* Dscrptn */ 'LOC_IMPROVEMENT_SOT7_DESCRIPTION',
+	/* SortIdx */ 11
+),(
+	/* Domain  */ 'Players:Expansion1_Players',
+	/* CivType */ 'CIVILIZATION_LIYUE_CL',
+	/* LdrType */ 'LEADER_KEQING',
 	/* ItmType */ 'UNIT_GUI_ZHONG_BALLISTA_MPT',
 	/* ItmIcon */ 'ICON_UNIT_GUI_ZHONG_BALLISTA_MPT',
 	/* ItmName */ 'LOC_UNIT_GUI_ZHONG_BALLISTA_MPT_NAME',
@@ -64,6 +73,15 @@ VALUES
 	/* ItmName */ 'LOC_BUILDING_BUBU_PHARMACY_NAME',
 	/* Dscrptn */ 'LOC_BUILDING_BUBU_PHARMACY_DESCRIPTION',
 	/* SortIdx */ 36
+),(
+	/* Domain  */ 'Players:Expansion1_Players',
+	/* CivType */ 'CIVILIZATION_LIYUE_CL',
+	/* LdrType */ 'LEADER_NINGGUANG',
+	/* ItmType */ 'IMPROVEMENT_SOT7',
+	/* ItmIcon */ 'ICON_IMPROVEMENT_SOT7',
+	/* ItmName */ 'LOC_IMPROVEMENT_SOT7_NAME',
+	/* Dscrptn */ 'LOC_IMPROVEMENT_SOT7_DESCRIPTION',
+	/* SortIdx */ 11
 ),(
 	/* Domain  */ 'Players:Expansion1_Players',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
@@ -130,6 +148,15 @@ VALUES
 ),
 /* Expansion2 */
 (
+	/* Domain  */ 'Players:Expansion1_Players',
+	/* CivType */ 'CIVILIZATION_LIYUE_CL',
+	/* LdrType */ 'LEADER_KEQING',
+	/* ItmType */ 'IMPROVEMENT_SOT7',
+	/* ItmIcon */ 'ICON_IMPROVEMENT_SOT7',
+	/* ItmName */ 'LOC_IMPROVEMENT_SOT7_NAME',
+	/* Dscrptn */ 'LOC_IMPROVEMENT_SOT7_DESCRIPTION',
+	/* SortIdx */ 11
+),(
 	/* Domain  */ 'Players:Expansion2_Players',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',
 	/* LdrType */ 'LEADER_KEQING',
@@ -201,6 +228,15 @@ VALUES
 	/* ItmName */ 'LOC_BUILDING_BUBU_PHARMACY_NAME',
 	/* Dscrptn */ 'LOC_BUILDING_BUBU_PHARMACY_DESCRIPTION',
 	/* SortIdx */ 36
+),(
+	/* Domain  */ 'Players:Expansion1_Players',
+	/* CivType */ 'CIVILIZATION_LIYUE_CL',
+	/* LdrType */ 'LEADER_NINGGUANG',
+	/* ItmType */ 'IMPROVEMENT_SOT7',
+	/* ItmIcon */ 'ICON_IMPROVEMENT_SOT7',
+	/* ItmName */ 'LOC_IMPROVEMENT_SOT7_NAME',
+	/* Dscrptn */ 'LOC_IMPROVEMENT_SOT7_DESCRIPTION',
+	/* SortIdx */ 11
 ),(
 	/* Domain  */ 'Players:Expansion2_Players',
 	/* CivType */ 'CIVILIZATION_LIYUE_CL',

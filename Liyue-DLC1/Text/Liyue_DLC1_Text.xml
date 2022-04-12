@@ -39,6 +39,27 @@
 			<Text></Text>
 		</Row>
 
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_XINYAN_ROCK_BAND_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
+			<Text>璃月港唯一的摇滚歌手，以音乐和热情歌颂着对「成见」的反抗。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_XINYAN_ROCK_BAND_CHAPTER_HISTORY_PARA_2" Language="zh_Hans_CN">
+			<Text>摇滚发源于枫丹,在璃月港属于新兴艺术,辛焱则是这门艺术身先士卒的践行者。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_XINYAN_ROCK_BAND_CHAPTER_HISTORY_PARA_3" Language="zh_Hans_CN">
+			<Text>每到夜里,她就会背上亲手做的乐器，站上亲手搭建的舞台,为每一位前来捧场的听众演奏她亲手谱写的乐曲。她的曲子正如其人，直爽豪迈,自信骄傲。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_XINYAN_ROCK_BAND_CHAPTER_HISTORY_PARA_4" Language="zh_Hans_CN">
+			<Text>她在音乐上的造诣或许算不上顶尖,但她的忠实观众会忘情地与她一起欢呼，用声音和肢体发泄平日中的烦闷与苦恼。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_XINYAN_ROCK_BAND_CHAPTER_HISTORY_PARA_5" Language="zh_Hans_CN">
+			<Text>当辛焱忘我之时,从她的神之眼迸射出的火焰,像是要带领人们把黑夜点成白昼。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_XINYAN_ROCK_BAND_CHAPTER_HISTORY_PARA_6" Language="zh_Hans_CN">
+			<Text>「一位演奏摇滚的奇才,更是一位演奏气氛的大师。」「蒸汽鸟报社」曾经这样评价过她。</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_XINYAN_ROCK_BAND_CHAPTER_HISTORY_PARA_7" Language="zh_Hans_CN">
+			<Text>璃月米贵,居大不易。但辛焱会告诉困于尘世冗杂的世人——摇滚起来,很容易。</Text>
+		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_GUI_ZHONG_BALLISTA_MPT_CHAPTER_HISTORY_PARA_1" Language="zh_Hans_CN">
 			<Text>通过对归终留下的原版归终机进行逆向工程并加以改造而成的新式归终机。虽然性能不及原版，但胜在能够量产。</Text>
 		</Row>

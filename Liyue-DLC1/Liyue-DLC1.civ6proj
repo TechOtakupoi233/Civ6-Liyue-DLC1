@@ -22,7 +22,7 @@
   <Dependency type="Mod" title="璃月文明包/Liyue Civilization Pack" id="4fda3be4-c2a6-43fd-8e2e-4936ac7e8ae4" />
 </Associations>]]></AssociationData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="LiyueDLC1ConfigData"><File priority="10">Data/Liyue_DLC1_Config.sql</File></UpdateDatabase><UpdateText id="LiyueDLC1ConfigText"><File>Text/Liyue_DLC1_ConfigText.xml</File></UpdateText><UpdateIcons id="LiyueDLC1ConfigIcon"><File>Data/Liyue_DLC1_Icons.sql</File></UpdateIcons><UpdateArt id="LiyueDLC1ConfigArt"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
-    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="LiyueDLC1Data"><File>Data/Liyue_DLC1_Buildings.xml</File><File>Data/Liyue_DLC1_Civilization.xml</File><File>Data/Liyue_Gui_Zhong_Ballista.xml</File></UpdateDatabase><UpdateDatabase id="LiyueDLC1Data_XP2"><Criteria>Expansion2</Criteria><File priority="10">Data/Liyue_XinYan_Rock_Band.xml</File></UpdateDatabase><UpdateIcons id="LiyueDLC1Icons"><File>Data/Liyue_DLC1_Icons.sql</File></UpdateIcons><UpdateText id="LiyueDLC1Text"><File>Text/Liyue_DLC1_ConfigText.xml</File><File>Text/Liyue_DLC1_Text.xml</File></UpdateText><UpdateArt id="LiyueDLC1Art"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="LiyueDLC1Data"><File>Data/Liyue_DLC1_Buildings.xml</File><File>Data/Liyue_DLC1_Civilization.xml</File><File>Data/Liyue_Gui_Zhong_Ballista.xml</File><File>Data/Liyue_SOT7.xml</File></UpdateDatabase><UpdateDatabase id="LiyueDLC1Data_XP2"><Criteria>Expansion2</Criteria><File priority="10">Data/Liyue_XinYan_Rock_Band.xml</File></UpdateDatabase><UpdateIcons id="LiyueDLC1Icons"><File>Data/Liyue_DLC1_Icons.sql</File></UpdateIcons><UpdateText id="LiyueDLC1Text"><File>Text/Liyue_DLC1_ConfigText.xml</File><File>Text/Liyue_DLC1_Text.xml</File></UpdateText><UpdateArt id="LiyueDLC1Art"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
     <ActionCriteriaData><![CDATA[<ActionCriteria><Criteria id="Expansion2"><RuleSetInUse><Expansion2>Expansion2</Expansion2></RuleSetInUse></Criteria></ActionCriteria>]]></ActionCriteriaData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
@@ -53,7 +53,19 @@
     <Content Include="Data\Liyue_Jade_Chamber.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Data\Liyue_SOT7.xml">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Data\Liyue_XinYan_Rock_Band.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\SOT7_Data.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\SOT7_UI.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\SOT7_UI.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Text\Liyue_DLC1_ConfigText.xml">

@@ -85,6 +85,30 @@
 			<m_EntryID text="LEADER_KEQING_LOADING"/>
 			<m_ObjectName text="LEADER_KEQING_NEUTRAL"/>
 		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_XINYAN_ROCK_BAND_22"/>
+			<m_ObjectName text="ICON_UNIT_XINYAN_ROCK_BAND_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_XINYAN_ROCK_BAND_256"/>
+			<m_ObjectName text="ICON_UNIT_XINYAN_ROCK_BAND_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_XINYAN_ROCK_BAND_32"/>
+			<m_ObjectName text="ICON_UNIT_XINYAN_ROCK_BAND_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_XINYAN_ROCK_BAND_38"/>
+			<m_ObjectName text="ICON_UNIT_XINYAN_ROCK_BAND_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_XINYAN_ROCK_BAND_50"/>
+			<m_ObjectName text="ICON_UNIT_XINYAN_ROCK_BAND_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_XINYAN_ROCK_BAND_80"/>
+			<m_ObjectName text="ICON_UNIT_XINYAN_ROCK_BAND_80"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
