@@ -7,6 +7,12 @@
 		<Row Tag="LOC_LIYUE_TRAIT_PREFIX" Language="zh_Hans_CN">
 			<Text>璃月特色</Text>
 		</Row>
+		<Row Tag="LOC_IMPROVEMENT_SOT7_NAME" Language="zh_Hans_CN">
+			<Text>七天神像</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_SOT7_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_LIYUE_TRAIT_PREFIX}改良设施，移动至七天神像的单位立即回复生命值。每座城市仅能修建一个。境内每座神像提供50点总恢复力（至多1000点），每回合回复10%最大值的恢复力。恢复力由您境内所有的神像共享。</Text>
+		</Row>
 		<Row Tag="LOC_BUILDING_HEYU_TEAHOUSE_NAME" Language="zh_Hans_CN">
 			<Text>和裕茶馆</Text>
 		</Row>
@@ -15,6 +21,9 @@
 		</Row>
 		<Row Tag="LOC_UNIT_XINYAN_ROCK_BAND_NAME" Language="zh_Hans_CN">
 			<Text>红弦</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_XINYAN_ROCK_BAND_DESCRIPTION_CONFIG" Language="zh_Hans_CN">
+			<Text>{LOC_LIYUE_TRAIT_PREFIX}{LOC_UNIT_ROCK_BAND_NAME}，能够选择所有升级。</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_XINYAN_ROCK_BAND_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>{LOC_LIYUE_TRAIT_PREFIX}{LOC_UNIT_ROCK_BAND_NAME}，能够选择所有升级。[NEWLINE]{LOC_UNIT_ROCK_BAND_DESCRIPTION}</Text>

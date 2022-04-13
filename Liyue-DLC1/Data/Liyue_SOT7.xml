@@ -8,6 +8,18 @@
 		<!-- UNIQUE IMPROVEMENTS -->
 		<Row ImprovementType="IMPROVEMENT_SOT7" Name="LOC_IMPROVEMENT_SOT7_NAME" Description="LOC_IMPROVEMENT_SOT7_DESCRIPTION" Icon="ICON_IMPROVEMENT_SOT7" PlunderType="PLUNDER_NONE" PlunderAmount="50" Buildable="true" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_SOT7" CanBuildOutsideTerritory="false"/>
 	</Improvements>
+	<Improvement_ValidTerrains>
+		<Row ImprovementType="IMPROVEMENT_SOT7" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_SOT7" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_SOT7" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_SOT7" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_SOT7" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_SOT7" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_SOT7" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_SOT7" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_SOT7" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_SOT7" TerrainType="TERRAIN_SNOW_HILLS"/>
+	</Improvement_ValidTerrains>
 	<Improvement_ValidBuildUnits>
 		<!-- UNIQUE IMPROVEMENTS -->
 		<Row ImprovementType="IMPROVEMENT_SOT7" UnitType="UNIT_BUILDER"/>
@@ -16,7 +28,7 @@
 		<!-- UNIQUE IMPROVEMENTS -->
 		<Row ImprovementType="IMPROVEMENT_SOT7" YieldType="YIELD_FAITH" YieldChange="2"/>
 	</Improvement_YieldChanges>
-    <Traits>
-        <Delete TraitType="TRAIT_GENSHIN_BUILDING_STATUE_OF_THE_SEVEN"/>
-    </Traits>
+	<MomentIllustrations>
+		<Row MomentIllustrationType="MOMENT_ILLUSTRATION_UNIQUE_IMPROVEMENT" MomentDataType="MOMENT_DATA_IMPROVEMENT" GameDataType="IMPROVEMENT_SOT7" Texture="MOMENT_IMPROVEMENT_SOT7"/>
+	</MomentIllustrations>
 </GameInfo>

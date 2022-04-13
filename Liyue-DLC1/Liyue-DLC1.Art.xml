@@ -7,7 +7,9 @@
 	<artConsumers>
 		<Element>
 			<consumerName text="Units"/>
-			<relativeArtDefPaths/>
+			<relativeArtDefPaths>
+				<Element text="Units.artdef"/>
+			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Unit"/>
 				<Element text="VFX"/>
@@ -27,7 +29,9 @@
 		</Element>
 		<Element>
 			<consumerName text="Landmarks"/>
-			<relativeArtDefPaths/>
+			<relativeArtDefPaths>
+				<Element text="Landmarks.artdef"/>
+			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="CityBuildings"/>
 				<Element text="TileBase"/>
@@ -242,9 +246,13 @@
 		</Element>
 		<Element>
 			<consumerName text="Improvements"/>
-			<relativeArtDefPaths/>
-			<libraryDependencies/>
-			<loadsLibraries>false</loadsLibraries>
+			<relativeArtDefPaths>
+				<Element text="Improvements.artdef"/>
+			</relativeArtDefPaths>
+			<libraryDependencies>
+				<Element text="TileBase"/>
+			</libraryDependencies>
+			<loadsLibraries>true</loadsLibraries>
 		</Element>
 		<Element>
 			<consumerName text="WorldView_Translate"/>
@@ -466,7 +474,9 @@
 		</Element>
 		<Element>
 			<libraryName text="TileBase"/>
-			<relativePackagePaths/>
+			<relativePackagePaths>
+				<Element text="landmarks/tilebases"/>
+			</relativePackagePaths>
 		</Element>
 		<Element>
 			<libraryName text="UILensAsset"/>
@@ -501,8 +511,8 @@
 	</gameLibraries>
 	<requiredGameArtIDs>
 		<Element>
-			<name text="Shared"/>
-			<id text="725760e3-7fc0-4be7-abf1-17bc756d5436"/>
+			<name text="Civ6"/>
+			<id text="cb2f71b7-843e-4af3-9ca7-992acda9c195"/>
 		</Element>
 	</requiredGameArtIDs>
 </AssetObjects..GameArtSpecification>

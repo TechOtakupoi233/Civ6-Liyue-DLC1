@@ -109,6 +109,26 @@
 			<m_EntryID text="ICON_UNIT_XINYAN_ROCK_BAND_80"/>
 			<m_ObjectName text="ICON_UNIT_XINYAN_ROCK_BAND_80"/>
 		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_SOT7_256"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_SOT7_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_SOT7_38"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_SOT7_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_SOT7_50"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_SOT7_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_SOT7_80"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_SOT7_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Moment_Improvement_SOT7"/>
+			<m_ObjectName text="Moment_Improvement_SOT7"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

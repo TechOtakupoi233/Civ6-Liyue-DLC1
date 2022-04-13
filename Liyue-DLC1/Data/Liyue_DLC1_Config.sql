@@ -163,7 +163,7 @@ VALUES
 	/* ItmType */ 'UNIT_XINYAN_ROCK_BAND',
 	/* ItmIcon */ 'ICON_UNIT_XINYAN_ROCK_BAND',
 	/* ItmName */ 'LOC_UNIT_XINYAN_ROCK_BAND_NAME',
-	/* Dscrptn */ 'LOC_UNIT_XINYAN_ROCK_BAND_DESCRIPTION',
+	/* Dscrptn */ 'LOC_UNIT_XINYAN_ROCK_BAND_DESCRIPTION_CONFIG',
 	/* SortIdx */ 15
 ),(
 	/* Domain  */ 'Players:Expansion2_Players',
@@ -244,7 +244,7 @@ VALUES
 	/* ItmType */ 'UNIT_XINYAN_ROCK_BAND',
 	/* ItmIcon */ 'ICON_UNIT_XINYAN_ROCK_BAND',
 	/* ItmName */ 'LOC_UNIT_XINYAN_ROCK_BAND_NAME',
-	/* Dscrptn */ 'LOC_UNIT_XINYAN_ROCK_BAND_DESCRIPTION',
+	/* Dscrptn */ 'LOC_UNIT_XINYAN_ROCK_BAND_DESCRIPTION_CONFIG',
 	/* SortIdx */ 15
 ),(
 	/* Domain  */ 'Players:Expansion2_Players',
