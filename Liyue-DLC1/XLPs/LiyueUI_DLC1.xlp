@@ -129,6 +129,30 @@
 			<m_EntryID text="Moment_Improvement_SOT7"/>
 			<m_ObjectName text="Moment_Improvement_SOT7"/>
 		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_WANMIN_RESTAURANT_128"/>
+			<m_ObjectName text="ICON_BUILDING_WANMIN_RESTAURANT_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_WANMIN_RESTAURANT_256"/>
+			<m_ObjectName text="ICON_BUILDING_WANMIN_RESTAURANT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_WANMIN_RESTAURANT_32"/>
+			<m_ObjectName text="ICON_BUILDING_WANMIN_RESTAURANT_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_WANMIN_RESTAURANT_38"/>
+			<m_ObjectName text="ICON_BUILDING_WANMIN_RESTAURANT_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_WANMIN_RESTAURANT_50"/>
+			<m_ObjectName text="ICON_BUILDING_WANMIN_RESTAURANT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_WANMIN_RESTAURANT_80"/>
+			<m_ObjectName text="ICON_BUILDING_WANMIN_RESTAURANT_80"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
