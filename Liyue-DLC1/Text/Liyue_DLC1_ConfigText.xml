@@ -59,6 +59,12 @@
 		<Row Tag="LOC_BUILDING_BUBU_PHARMACY_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>{LOC_LIYUE_TRAIT_PREFIX}建筑，此城市的人口增长速度提高25%，驻守于此城市内的单位每回合恢复更多生命值。</Text>
 		</Row>
+		<Row Tag="LOC_BUILDING_GOLDEN_HOUSE_NAME" Language="zh_Hans_CN">
+			<Text>黄金屋</Text>
+		</Row>
+		<Row Tag="LOC_BUILDING_GOLDEN_HOUSE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>{LOC_LIYUE_TRAIT_PREFIX}奇观，可建在远离市中心的平原和丘陵上。每回合+50%[ICON_Gold]金币，为盟友每回合+25%[ICON_Gold]金币，为有商路连接的文明每回合+10%[ICON_Gold]金币。</Text>
+		</Row>
 
 		<Row Tag="LOC_UNIT_GUI_ZHONG_BALLISTA_MPT_NAME" Language="zh_Hans_CN">
 			<Text>量产型归终机</Text>
